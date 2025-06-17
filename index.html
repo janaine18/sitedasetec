@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setec 2025 - Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/brasao.png" alt="Brasão do Colégio Estadual Barbosa Ferraz" class="brasao">
+        <h1>Semana de Tecnologia do Colégio Estadual Barbosa Ferraz</h1>
+    </header>
+
+    <section id="introducao">
+        <h2>O que é a Setec?</h2>
+        <p>A Setec (Semana de Tecnologia do Colégio Estadual Barbosa Ferraz) é um evento que acontece anualmente e reúne alunos, professores e visitantes para uma série de atividades e palestras sobre inovação tecnológica. Este ano, o evento ocorrerá em novembro, nas salas de aula e na quadra do colégio.</p>
+    </section>
+
+    <section id="desenvolvimento">
+        <h2>Eventos Anteriores da Setec</h2>
+        <div class="imagem-galeria">
+            <img src="images/setec1.jpg" alt="Evento Setec 1" class="evento-imagem">
+            <img src="images/setec2.jpg" alt="Evento Setec 2" class="evento-imagem">
+            <img src="images/setec3.jpg" alt="Evento Setec 3" class="evento-imagem">
+        </div>
+        <p>Nos últimos anos, a Setec foi um grande sucesso, com palestras, workshops, exposições de tecnologia, e competições. Este ano, esperamos ainda mais participantes e atividades incríveis!</p>
+    </section>
+
+    <section id="inscricao">
+        <h2>Formulário de Inscrição</h2>
+        <p>Se você deseja participar da Setec, por favor, preencha o formulário abaixo. Alunos do colégio e visitantes podem se inscrever.</p>
+        <form action="https://sua-api-de-envio.com" method="POST">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo">Você é:</label>
+            <select id="tipo" name="tipo" required>
+                <option value="aluno">Aluno</option>
+                <option value="visitante">Visitante</option>
+            </select>
+
+            <label for="comentarios">Comentários (Opcional):</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Colégio Estadual Barbosa Ferraz - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
